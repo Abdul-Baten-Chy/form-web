@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+header{
+    max-width: 1024px;
+    background-color: #757575;
+    display:flex;
+    align-items: center;
+    margin: 0 auto;
+} 
+img {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin-left: 20px;
+
+}
+.logo{
+    width: 50%;
+}
+main{
+    max-width: 1024px;
+}
+nav >ul{
+    display:flex;
+}
+li{
+    margin-right: 30px;
+    list-style: none;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+nav>ul>li:hover{
+ background-color: aqua;
+
+}
+nav>ul>li>a:hover{
+    text-decoration: none;
+    color: black;}
+    
