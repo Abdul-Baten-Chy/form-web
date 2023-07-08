@@ -9,7 +9,7 @@
 <body>
     <header>
         <section class="logo"> 
-            <img src="/assets/logo.png" alt="this is a logo"> 
+            <img src="./assets/logo.png" alt="this is a logo"> 
          </section>
         <nav>
             <ul>
@@ -20,7 +20,28 @@
         </nav>
     </header>
     <main>
-        <form action=""></form>
+       <section class="form">
+        <h1>Registation Form</h1>
+        <form action="">
+
+            <label for="name">Name: <input type="text" id="name" name="name"></label>
+            <label for="email"> E-mail: <input type="email" id="email" name="email"></label>
+            <label for="country">Choose a Country:</label>
+            <select name="country" id="country" class="select">
+                <option value="bangladesh">Bangladesh</option>
+                <option value="india">India</option>
+                <option value="saudi Arab">Saudi Arab</option>
+                <option value="srilanka">Srilanka</option>
+            </select>
+            <label for="phone">phone: <input type="number" id="phone"></label>
+            <label for="password">Password: <input type="password" id="password"> </label>
+            <label for="agreement" class="agree"><input type="checkbox" id="agreement" class="checkbox"> I accept term & conditions</label>
+            
+            <label for="button"><button type="button" id="button">Create Account</button></label> 
+        </form>
+       </section>
+            
+       
     </main>
 </body>
 </html>
